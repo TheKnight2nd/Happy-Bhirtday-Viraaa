@@ -223,7 +223,7 @@ function startTypewriter() {
     const messageContent = document.querySelector('.message-content');
     if (!messageContent) return;
     
-    const fullMessage = `Hi viraa,
+    const fullMessage = `
 
 Happy Birthday sayanggg!
 
@@ -268,7 +268,7 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `Hi Viraa,<br><br>Happy Birthday sayanggg!<br><br>Haiiii viraaaa Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, Setiap ketawa bareng kamu, rasanya seperti dunia nggak se-serius itu. Kita bisa ngobrol yang nggak jelas sampe subuh, ketawa gegara main game, atau cuma sekedar nonton untuk nemenin kamu tidur. Kamu tuh kayak obat stres aku yang paling ampuh cukup liat senyum kamu, denger suara kamu, atau bahkan inget muka kamu pas lagi bengong, semua beban yang ada langsung ilang. You're my favorite kind of therapy.
+            const fullMessage = `<br><br>Happy Birthday sayanggg!<br><br>Haiiii viraaaa Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, Setiap ketawa bareng kamu, rasanya seperti dunia nggak se-serius itu. Kita bisa ngobrol yang nggak jelas sampe subuh, ketawa gegara main game, atau cuma sekedar nonton untuk nemenin kamu tidur. Kamu tuh kayak obat stres aku yang paling ampuh cukup liat senyum kamu, denger suara kamu, atau bahkan inget muka kamu pas lagi bengong, semua beban yang ada langsung ilang. You're my favorite kind of therapy.
  Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa. Aku bakal selalu dengerin kamu pas kamu lagi pengen cerita, bakal tepatin janji-janji kecil kita, dan bakal selalu ada pas kamu lagi sedih. Cinta kita nggak perlu panggung megah cukup di dunia kita berdua, dengan cara kita sendiri.mendengar suara kamu bisa membuat semua hal yang tadinya berat jadi lebih ringan. You make everything brighter, simpler, and worth it. Nggak peduli seberapa capeknya hari, pulang ke kamu selalu bikin semuanya berasa worth it.<br>
 
 
